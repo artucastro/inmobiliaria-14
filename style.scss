@@ -276,6 +276,7 @@ a {
 #foot {
   background-color: #343a40;
   display: grid;
+  align-content: center;
 }
 
 .enlace {
@@ -334,7 +335,12 @@ a {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  margin: 20px;
+  margin-left: 25%;
+}
+.bodyP {
+  @media all and (min-width: 700px) (min-height: 700px){
+    align-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

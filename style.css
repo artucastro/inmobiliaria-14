@@ -338,6 +338,8 @@ a {
   background-color: #343a40;
   display: -ms-grid;
   display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .enlace {
@@ -409,6 +411,13 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 20px;
+  margin-left: 25%;
+}
+
+@media all and (max-width: 700px) {
+  .bodyP {
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */

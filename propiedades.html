@@ -14,6 +14,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
+      <div class="bodyP">
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         
@@ -52,41 +53,45 @@
             <div id="prop1" class="animate__animated animate__fadeInTopRight">
                 <h1 id="pi14">Propiedades Inmobiliaria 14:</h1>
             </div>
-                <table border="25" cellpadding="10px" class="table">
+                <table class="table table-striped table-dark">
+                  <thead>
                     <tr>
-                    <th id="imagen">IMAGEN</th>
-                    <th id="descripción">DESCRIPCIÓN</th>
-                    <th id="caracteristicas">CARACTERÍSTICAS</th>
-                    <th id="costo">COSTO</th>
+                      <th scope="col" id="imagen">IMAGEN</th>
+                      <th scope="col" id="descripción">DESCRIPCIÓN</th>
+                      <th scope="col" id="caracteristicas">CARACTERÍSTICAS</th>
+                      <th scope="col" id="costo">COSTO</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row"><img src="Fotos/depalermocaba.jpg" class="imgP" /></th>
+                      <td class="tipos1">Departamente de dos pisos que esta en venta, esta situado en Palermo,CABA</td>
+                      <td class="tipos1"> Tiene 4 dormitorios, 3 baños, 1 cocina, 1 oficina, 1 cochera, 1 dependecia, 6 ambientes y 1 balcón</td>
+                      <td class="tipos1">USD$300.000</td>
                     </tr>
                     <tr>
-                    <td><img src="Fotos/depalermocaba.jpg" class="imgP"></td>
-                    <td class="tipos1">Departamente de dos pisos que esta en venta, esta situado en Palermo,CABA</td>
-                    <td class="tipos1"> Tiene 4 dormitorios, 3 baños, 1 cocina, 1 oficina, 1 cochera, 1 dependecia, 6 ambientes y 1 balcón</td>
-                    <td class="tipos1">USD$300.000</td>
+                      <th scope="row"><img src="Fotos/ZonaNorteProp.jpg" class="imgP" /></th>
+                      <td class="tipos1">Casa de 120 m2 en alquiler, menos de 30 años de anituguedad, en Zona Norte</td>
+                      <td class="tipos1">2 dormitorios, 1 baño, 1 cocina, 4 ambientes, 1 livingroom</td>
+                      <td class="tipos1">USD$200 por mes</td>
                     </tr>
                     <tr>
-                    <td><img src="Fotos/ZonaNorteProp.jpg" class="imgP"/></td>
-                    <td class="tipos1">Casa de 120 m2 en alquiler, menos de 30 años de anituguedad, en Zona Norte</td>
-                    <td class="tipos1">2 dormitorios, 1 baño, 1 cocina, 4 ambientes, 1 livingroom</td>
-                    <td class="tipos1">USD$200 por mes</td>
+                      <th scope="row"><img src="Fotos/PuertoMadero.jpg" class="imgP" /></th>
+                      <td class="tipos1">Departamento en venta de 300 m2 en Puerto Madero</td>
+                      <td class="tipos1">4 dormitorios, 3 baños, 1 cocina, 6 ambientes, 1 dependencia, 1 oficina, 1 livingroom, 1 playroom, 1 balcón</td>
+                      <td class="tipos1">USD$1.500.000</td>
                     </tr>
                     <tr>
-                    <td class="tipos1"><img src="Fotos/PuertoMadero.jpg" class="imgP" /></td>
-                    <td class="tipos1">Departamento en venta de 300 m2 en Puerto Madero</td>
-                    <td class="tipos1">4 dormitorios, 3 baños, 1 cocina, 6 ambientes, 1 dependencia, 1 oficina, 1 livingroom, 1 playroom, 1 balcón</td>
-                    <td class="tipos1">USD$1.500.000</td>
+                      <th scope="row"><img src="Fotos/RecoletaImg.jpg" class="imgP" /></th>
+                      <td class="tipos1">Duplex en alquiler de 247 m2 en Recoleta, CABA</td>
+                      <td class="tipos1">3 dormitorios, 2 baños, 1 dependencia, 1 livingroom, 1 cocina, 4 ambientes, 1 cochera</td>
+                      <td class="tipos1">USD$1.200 por mes</td>
                     </tr>
-                    <tr>
-                    <td><img src="Fotos/RecoletaImg.jpg" class="imgP"></td>
-                    <td class="tipos1">Duplex en alquiler de 247 m2 en Recoleta, CABA</td>
-                    <td class="tipos1">3 dormitorios, 2 baños, 1 dependencia, 1 livingroom, 1 cocina, 4 ambientes, 1 cochera</td>
-                    <td class="tipos1">USD$1.200 por mes</td>
-                    </tr>
+                  </tbody>
                 </table>
                 <div class="button">
-                    <button class="button-ayuda"><a href="index.html" class="vpp">Volver a la página principal</a></button>
-                </div>
+                  <button class="button-ayuda"><a href="index.html" class="vpp">Volver a la página principal</a></button>
+              </div>
         </main>
 
         <footer> 
@@ -100,5 +105,6 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </div>
     </body>    
 </html>
