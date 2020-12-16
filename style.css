@@ -148,7 +148,7 @@ a {
 }
 
 .tipos1 {
-  color: #000000;
+  color: white;
   font-size: 20px;
 }
 
@@ -412,12 +412,5 @@ a {
       -ms-flex-align: center;
           align-items: center;
   margin-left: 25%;
-}
-
-@media all and (max-width: 700px) {
-  .bodyP {
-    -ms-flex-line-pack: center;
-        align-content: center;
-  }
 }
 /*# sourceMappingURL=style.css.map */
